@@ -132,7 +132,7 @@ a {
   padding: 25px;
 }
 .data {
-  height: 100%;
+  height: 45%;
   background-size: 100%;
   color: white;
 }
@@ -241,3 +241,62 @@ a {
   }
   
   
+/* about */
+.info{
+  height: 100%;
+}
+#about {
+  /* position: fixed; */
+  height: 100%;
+  width: 78%;
+  margin-top: 50px;
+  margin-left: 158px;
+  padding-top: 44px;
+  background-color: yellow;
+}
+.about1 {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+  /* padding: 30PX; */
+  margin-top: 10px;
+  padding-top: 0px;
+  border-radius: 30px;
+}
+.about-left{
+  /* position: relative; */
+  width: 50%;
+  height: 100%;
+  background-color: aqua;
+  border-radius: 30px;
+  overflow: hidden;
+
+
+}
+.about-right{
+  width: 50%;
+  height: 100%;
+  background-color: bisque;
+  border-radius: 30px;  
+  display: flex;
+  flex-direction: column;
+}
+.about-left img{
+  height: 300px;
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.about-left img{
+  padding: 0;
+  height: 300px ;
+  display: block;
+  width: 70%;
+  margin: 0;
+  padding: 0;
+  border: 0;  
+}
