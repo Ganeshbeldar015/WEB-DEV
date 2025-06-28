@@ -243,23 +243,26 @@ a {
   
 /* about */
 .info{
+  /* position: relative; */
   height: 100%;
 }
 #about {
+  position: relative;
   /* position: fixed; */
   height: 100%;
   width: 78%;
   margin-top: 50px;
   margin-left: 158px;
   padding-top: 44px;
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 .about1 {
+  /* position: relative; */
   height: 90%;
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: red;
+  /* background-color: red; */
   /* padding: 30PX; */
   margin-top: 10px;
   padding-top: 0px;
@@ -269,7 +272,7 @@ a {
   /* position: relative; */
   width: 50%;
   height: 100%;
-  background-color: aqua;
+  /* background-color: aqua; */
   border-radius: 30px;
   overflow: hidden;
 
@@ -278,10 +281,21 @@ a {
 .about-right{
   width: 50%;
   height: 100%;
-  background-color: bisque;
+  /* background-color: bisque; */
   border-radius: 30px;  
   display: flex;
   flex-direction: column;
+  padding-top: 40px;
+  padding-left: 50px;
+
+}
+.about-right h1{
+  padding-bottom: 15px;
+
+}
+.about-right-para{
+  padding-bottom: 10px;
+  width: 450px;
 }
 .about-left img{
   height: 300px;
@@ -290,13 +304,37 @@ a {
   margin: 0;
   padding: 0;
   border: 0;
+  transition: transform 1.5s ease, opacity 1.5s ease;
+ object-fit: cover;
 }
-.about-left img{
-  padding: 0;
-  height: 300px ;
-  display: block;
-  width: 70%;
-  margin: 0;
-  padding: 0;
-  border: 0;  
+
+
+
+.choose {
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
 }
+.choose p{
+  padding-top: 10PX;
+  padding-left: 80px;
+  color: rgba(0, 0, 0, 0.537);
+}
+.choose h1{
+  color: #1c2a40e5;
+  font-size: 20px;
+}
+.about2{
+  position: absolute;
+  height: 500px;
+  width: 200px;
+  z-index: 999;
+  
+}
+.choose img{
+  background: none  ;
+}
+
+
